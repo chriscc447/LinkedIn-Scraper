@@ -60,7 +60,7 @@ with the syntax:
   + If *graph* is specified, then an undirected graph showing all connections between profiles is created  
   + If *tree* is specified, then a hierarchical tree model representing how the scraper processed profiles is created  
   + Example: *python vis.py profiles.csv graph profiles_graph*
-    + This command will create a graph with the data in the profiles.csv file
+    + This command will create a graph with the data in the profiles.csv file and save the graph as *profiles_graph.html*
   
 
 ## Data dictionary
@@ -81,8 +81,7 @@ Every outputted csv file containing scraped profile information has the followin
 ## Additional information about files in this repo
 
 ### scraper.ipynb vs scraper.py
-The scraper.ipynb file is mostly informational. If you would like to make changes to the scraper's code, please edit the scraper.py file instead -- 
-the code in the scraper.py file is the code that is ultimately used.
+The scraper.ipynb file is mostly informational. If you would like to make changes to the scraper's code, please edit the scraper.py file instead -- the code in the scraper.py file is the code that is ultimately used.
 
 ### run_scraper_ap.ipynb, run_scraper_cc.ipynb
 These are examples of the scraper being run. 
