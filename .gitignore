@@ -1,0 +1,6 @@
+path.txt
+scraper_draft.ipynb
+scraper_test_run.ipynb
+*.pyc
+.ipynb_checkpoints/
+__pycache__/
