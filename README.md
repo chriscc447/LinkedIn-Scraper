@@ -19,7 +19,7 @@ The object has three main functions:
 
 #### scraper = LIScraper(ref_path)
 Arguments:
-+ ref_path: the path of the text file containing your information. For example: *path.txt*  
++ *ref_path*: the path of the text file containing your information. For example: *path.txt*  
   
 The text file should have three lines:
 * The full path of the chromedriver.exe file. For example: *C:\Users\user\chromedriver_win32\chromedriver.exe*
@@ -83,11 +83,11 @@ Every outputted csv file containing scraped profile information has the followin
 ### scraper.ipynb vs scraper.py
 The scraper.ipynb file is mostly informational. If you would like to make changes to the scraper's code, please edit the scraper.py file instead -- the code in the scraper.py file is the code that is ultimately used.
 
-### run_scraper_ap.ipynb, run_scraper_cc.ipynb
-These are examples of the scraper being run. 
+### run_scraper_cc.ipynb
+An example of the scraper being run on my LinkedIn profile. 
 
-### .csv files
-These are the datasets outputted by running the scraper on the two example profiles.
+### chris_chen_profiles.csv 
+The dataset outputted from the example.
 
-### .html files
-These are the visualizations generated using the datasets from running the scraper on the two example profiles
+### cc_tree.html, cc_graph.html
+The visualizations generated using the dataset from the example
